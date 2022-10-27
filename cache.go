@@ -19,13 +19,13 @@ type Delete struct {
 }
 
 func (s Set) Print() {
-	fmt.Println("Name: s.name")
+	fmt.Printf("Name: name")
 }
 
 func (g Get) Print() {
-	fmt.Println("Name: s.name")
+	fmt.Printf("Name: name")
 }
 
 func (d Delete) Print() {
-	fmt.Println("Name: s.name")
+	fmt.Printf("Name: name")
 }
